@@ -2,7 +2,7 @@
 
 Emulates the HTML5 Placeholder attribute in browsers without native support.
 
-Creating this plugin to be as small as possible was the main focus. At just 258 bytes minified & gzipped, its small enough to inline.
+Making this plugin as small as possible while keeping good functionality is the main focus. At just 258 bytes minified & gzipped, its small enough to inline.
 
 Using this plugin is very easy. Just:
 
