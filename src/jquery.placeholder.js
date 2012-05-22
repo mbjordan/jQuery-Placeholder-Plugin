@@ -5,8 +5,6 @@
   https://github.com/matthewbj/jQuery-Placeholder-Plugin
 */
 
-Emulates the HTML5 Placeholder attribute in browsers without native support with a focus on minimalism.
-
 (function ($) {
     $.fn.placeHolder = function () {
 
