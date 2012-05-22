@@ -14,10 +14,8 @@
         var phsupport = false,
             phtest = document.createElement('input');
         if ('placeholder' in phtest) {
-            phsupport = true;
-        }
-
-        if (phsupport === false) { // no native support, run the code.
+            return false;
+        } else { // No native support? Run the code!
             return this.each(function () {
                 if ($(this).is('input') || $(this).is('textarea')) { // filter the elements
 
@@ -49,8 +47,6 @@
                             }
                         }
                     });
-                } else {
-                    return false;
                 }
             });
         }
