@@ -1,6 +1,6 @@
 # jQuery Placeholder Plugin
 
-Emulates the HTML5 Placeholder attribute in browsers without native support.
+Emulates the HTML5 Placeholder attribute in browsers that don't have native support.
 
 Making this plugin as small as possible while keeping good functionality is the main focus. At just 258 bytes minified & gzipped, its small enough to inline.
 
